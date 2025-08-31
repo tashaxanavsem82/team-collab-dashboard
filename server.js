@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Team Collaboration Dashboard!');
+  res.send('Welcome to the Team Collaboration Dashboard! Enjoy collaborating.');
 });
 
 io.on('connection', (socket) => {
