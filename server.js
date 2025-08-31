@@ -9,7 +9,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Team Collaboration Dashboard! Let’s collaborate effectively.');
+  res.send('Welcome to the Team Collaboration Dashboard! Let’s collaborate seamlessly and effectively.');
 });
 
 io.on('connection', (socket) => {
